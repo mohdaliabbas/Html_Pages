@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+    input{
+        display: flex;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 22px;
+        font-size: 25px;
+        border-radius:50em ;
+        width:400px;
+        background-color: transparent;
+        border: transparent;
+        box-shadow: 1px 2px 5px grey;
+        /* padding:10px; */
+        /* border:2px solid red; */
+    }
+    /* input[type="t"]{
+        padding: 2px 3px;
+e        color:darkgrey;
+    } */
+     button{
+         /* block take full space */
+        /* display:block; */
+    margin: 20px 4px;
+    height: 30px;
+    border: transparent;
+    border-radius: 4px;
+    background-color:rgb(235, 230, 230);
+       
+     }
+
+    .container {
+        margin-top: 10px;
+        top: 53px;
+        height: 70px;
+
+    }
+    .navbar{
+        display: block;
+        /* border: 2px solid red; */
+        width:900px;
+        margin: auto;
+        padding: none;
+        margin-left: 450px;
+
+    }
+    .navbar li{
+        display:inline-block;
+        padding: 10px;
+        margin: auto;
+        margin-left: 50px;
+
+    }
+    .navbar li a{
+        /* width:20px; */
+        display: inline-block;
+        color: rgb(43, 46, 235);
+        padding: 10px;
+        width: 5px;
+        text-decoration: none;
+        margin: auto;
+    }
+    .english{
+        /* border: 2px solid red; */
+        display: flex;
+        margin: auto;
+        /* width:auto; */
+
+    }
+    img{
+        display: flex;
+        margin: auto;
+        margin-top: 100px;
+        width: 250px;
+        height: 250px;
+        padding: none;
+    }
+    hr{
+        background-color:blue;
+        color: blue;
+    }
+    h3{
+        /* background-color: rgb(53, 81, 241); */
+        padding: 30px;
+    }
+    h4{
+        /* background-color: rgb(53, 81, 241); */
+        padding: 30px;
+    }
+    .s{
+        background-color: rgb(61, 61, 240);
+    }
+    .a{
+        text-decoration: none;
+        color: black;
+    }
+    .a:hover{
+        text-decoration: underline;
+        color: skyblue;
+    }
+
+    </style>
+</head>
+<body>
+    
+    <div>
+        <img src="/google2.0.0.jpg" alt="error">
+    
+    <div>
+<input type="text" name="" id="" placeholder="Google Search....">
+
+    </div>
+</div>
+        <div class="container">
+            <center>
+                <button type="submit">Google Search</button>
+                <button type="submit">I'm feeling lucky</button>
+            </center>
+
+        </div>
+        <body>
+        <div class="english">
+            <nav class="navbar"
+                &nbsp &nbsp &nbsp  >Google Offers in:
+                <li><a href="#" >English</li>
+                <li><a href="#">Hindi</a></li>
+                <li><a href="#">Kanad</a></li>
+                <li><a href="#">Malyalam</a></li>
+            </nav>
+        </div>
+    </body>
+        <div class="s">
+        <h3>&nbsp India</h3>
+        <hr>
+        <h4><a class="a" href="#">Advertising</a> &nbsp &nbsp &nbsp <a class="a" href="#">Marketting</a></h4>
+    </div>
+</body>
+</body>
+</html>
